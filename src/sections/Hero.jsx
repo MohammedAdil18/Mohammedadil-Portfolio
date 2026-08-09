@@ -58,7 +58,7 @@ function Hero() {
 
             {/* Greeting */}
 
-            <p className="mt-8 text-lg font-semibold tracking-wide text-[#8B6B4A]">
+            <p className="mt-16 text-lg font-semibold tracking-wide text-[#8B6B4A]">
               👋 Hello, I'm
             </p>
 

@@ -153,9 +153,9 @@ export const projects = [
       "Vite",
     ],
 
-    github: "",
+    github: "https://github.com/MohammedAdil18/Mohammedadil-Portfolio",
 
-    live: "",
+    live: "https://main.d1le8zojru1yad.amplifyapp.com/",
   },
 
   {
