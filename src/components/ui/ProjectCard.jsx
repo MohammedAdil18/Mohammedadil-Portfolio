@@ -73,30 +73,34 @@ function ProjectCard({ project }) {
             <FaExternalLinkAlt />
             Live Demo
           </Button>
-
-          <Link
-            to={`/projects/${project.id}`}
-            className="
-              ml-auto
-              hidden
-              lg:flex
-              items-center
-              gap-2
-              rounded-full
-              border
-              border-[#8B6B4A]
-              px-6
-              py-3
-              font-semibold
-              text-[#8B6B4A]
-              transition
-              hover:bg-[#8B6B4A]
-              hover:text-white
-            "
-          >
-            Details
-            <FaArrowRight />
-          </Link>
+               <Link
+  to={`/projects/${project.id}`}
+  className="
+    flex
+    items-center
+    justify-center
+    gap-2
+    rounded-full
+    border
+    border-[#8B6B4A]
+    px-5
+    py-3
+    text-sm
+    sm:px-6
+    sm:py-3
+    sm:text-base
+    font-semibold
+    text-[#8B6B4A]
+    transition
+    duration-300
+    hover:bg-[#8B6B4A]
+    hover:text-white
+  "
+>
+  Details
+  <FaArrowRight />
+</Link>
+    
         </div>
       </div>
     </motion.div>
